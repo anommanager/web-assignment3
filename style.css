@@ -1,0 +1,72 @@
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
+}
+
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.box {
+  background: blue;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.bs-container {
+  padding: 40px;
+}
+
+#icon {
+  max-width: 48px;
+  max-height: 48px;
+}
+
+@media(min-width: 768px) {
+  h1 {
+    min-width: 32px;
+  }
+
+  h2 {
+    min-width: 24px;
+  }
+
+  p {
+    min-width: 16px;
+  }
+
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(min-width: 1024px) {
+  h1 {
+    min-width: 48px;
+  }
+
+  h2 {
+    min-width: 32px;
+  }
+
+  p {
+    min-width: 20px;
+  }
+
+  .container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
