@@ -33,19 +33,20 @@ p {
 #icon {
   max-width: 48px;
   max-height: 48px;
+  margin-left: 10px;
 }
 
 @media(min-width: 768px) {
   h1 {
-    min-width: 32px;
+    font-size: 32px;
   }
 
   h2 {
-    min-width: 24px;
+    font-size: 24px;
   }
 
   p {
-    min-width: 16px;
+    font-size: 16px;
   }
 
   .container {
@@ -55,15 +56,15 @@ p {
 
 @media(min-width: 1024px) {
   h1 {
-    min-width: 48px;
+    font-size: 48px;
   }
 
   h2 {
-    min-width: 32px;
+    font-size: 32px;
   }
 
   p {
-    min-width: 20px;
+    font-size: 20px;
   }
 
   .container {
