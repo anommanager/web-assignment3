@@ -1,0 +1,107 @@
+<!DOCTYPE>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="portfolio.css">
+  <title>My portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/portfolio.jpg" alt="icon" id="icon">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container main-section">
+    <div class="row g-4">
+      <div class="col-12 col-lg-8" id="projects">
+        <h1 class="page-title">My Projects</h1>
+        <div class="row g-3">
+          <div class="col-12 col-md-6">
+            <div class="card h-100 project-card">
+              <img src="images/image1.png" class="card-img-top" alt="Project 1">
+              <div class="card-body">
+                <h5 class="card-title">Landing Page</h5>
+                <p class="card-text project-desc">A landing page for a shop
+                </p>
+                <a href="#" class="btn btn-primary btn-sm">View</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <div class="card h-100 project-card">
+              <img src="images/image2.webp" class="card-img-top" alt="Project 2">
+              <div class="card-body">
+                <h5 class="card-title">Weather Bot</h5>
+                <p class="card-text project-desc">A telegram bot that shows the current weather for any city.</p>
+                <a href="#" class="btn btn-primary btn-sm">View</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <div class="card h-100 project-card">
+              <img src="images/image3.jpg" class="card-img-top" alt="Project 4">
+              <div class="card-body">
+                <h5 class="card-title">Blog</h5>
+                <p class="card-text project-desc">A personal blog with articles.</p>
+                <a href="#" class="btn btn-primary btn-sm">View</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4" id="about">
+        <div class="sidebar p-4 bg-light rounded">
+          <img src="images/avatar.png" class="rounded-circle mb-3 avatar" alt="My photo">
+          <h4>Ilya</h4>
+          <p>I am a developer</p>
+
+          <div class="skills">
+            <h5>Skills</h5>
+            <p>HTML, CSS, Bootstrap, Python, Java.</p>
+          </div>
+
+          <h5 id="contacts">Contacts</h5>
+          <ul class="list-unstyled contacts-list">
+            <li>Email: mymail@example.com</li>
+            <li>Phone: +8 800 555 3535</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">🄯 2026 My Portfolio</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
