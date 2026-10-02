@@ -58,7 +58,14 @@ The layout uses the Bootstrap responsive grid system. It presents three colored 
 
 ### Task 3. Bootstrap Navigation Bar
 
+# Desktop
 ![Task 3](screenshots/screenshot10.png)
+
+# Tablet
+![Task 3](screenshots/screenshot10-1.png)
+
+# Mobile
+![Task 3](screenshots/screenshot10-2.png)
 
 The navigation bar is built with Bootstrap components. It has a light background. The logo is represented with the ATM icon on the left. The links Home, Portfolio, About us and Contacts are located on the right. The Portfolio link leads to the portfolio page (Task 4). On small screens, the links are hidden behind the Hamburger button. Clicking it opens the navigation menu.
 
@@ -73,6 +80,12 @@ The navigation bar is built with Bootstrap components. It has a light background
 **Bottom of the Page**
 
 ![Task 4 bottom](screenshots/screenshot12.png)
+
+# Tablet
+![Task 4 Tablet](screenshots/screenshot13.png)
+
+# Mobile
+![Task 4 Mobile](screenshots/screenshot14.png)
 
 The portfolio page is developed with the Bootstrap grid and customized by media queries. The page contains a fixed gray navbar, the main section, and a footer. In the left part of the page, there are three cards – Landing Page, Weather Bot, and Blog. To the right is the Sidebar with personal info, skills, and contacts. On the mobile view, the navigation bar changes to the hamburger menu and all elements are placed in a column. The font size and spacing between sections are also customized with media queries.
 
